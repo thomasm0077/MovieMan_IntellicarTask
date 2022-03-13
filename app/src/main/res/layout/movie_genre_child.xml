@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/movieGenreChild_genre"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:text="Adventure"
+        android:fontFamily="@font/jost_semibold"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:background="@drawable/custon_background_textview"/>
+
+</RelativeLayout>
